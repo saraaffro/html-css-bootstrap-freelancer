@@ -13,6 +13,8 @@ header{
     width: 95%;
     padding: 10px;
     margin: 0 auto;
+     /* debug */
+     min-height: 200px;
 }
 
 /* stili main */
@@ -20,11 +22,20 @@ main{
     padding-top: 100px;
 }
 
-#ms_jumbotron, #about{
+#ms_jumbotron, #ms_about{
     background-color: #1abc9c;
     padding-top: 10px;
     /* debug */
     min-height: 500px;
+}
+
+.img-container{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-container img{
+    width: 100%;
 }
 
 #ms_portfolio{
@@ -37,12 +48,32 @@ main{
     --bs-gutter-x: 0;
 }
 
-/* debug */
-[class*="col-"]{
-    background-color: antiquewhite;
-    min-height: 200px;
-    margin-bottom: 10px;
+.card{
+    width: 90%;
+    margin: 0 auto;
     border-radius: 10px;
+    /* debug */
+    background-color: black;
+    min-height: 200px;
+}
+
+[class*="col-"]{
+    margin: 20px 0;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.portfolio, .contact{
+    color: #2c3e50;
+}
+
+.about{
+    color: white;
 }
 
 /* stili footer */
@@ -58,4 +89,6 @@ main{
 
 #footer-bottom{
     background-color: #2c3e50;
+    height: 100px;
+    /* debug */
 }
