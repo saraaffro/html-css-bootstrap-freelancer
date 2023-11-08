@@ -10,23 +10,27 @@ header{
 }
 
 .ms_container{
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin: 0 auto;
-    /* debug */
-    background-color: rgba(0, 0, 0, 0.395);
-    min-height: 100px;
 }
 
 /* stili main */
 main{
     padding-top: 100px;
 }
+
 #ms_jumbotron, #about{
     background-color: #1abc9c;
     padding-top: 10px;
     /* debug */
     min-height: 500px;
+}
+
+#ms_portfolio{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 .row{
@@ -36,7 +40,7 @@ main{
 /* debug */
 [class*="col-"]{
     background-color: antiquewhite;
-    min-height: 300px;
+    min-height: 200px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -44,6 +48,12 @@ main{
 /* stili footer */
 #footer-top{
     background-color: #3a546d;
+}
+
+#footer-top .row{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 #footer-bottom{
