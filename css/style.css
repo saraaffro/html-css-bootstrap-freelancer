@@ -22,7 +22,7 @@ header{
 main{
     padding-top: 100px;
 }
-#ms_jumbotron{
+#ms_jumbotron, #about{
     background-color: #1abc9c;
     padding-top: 10px;
     /* debug */
@@ -38,4 +38,14 @@ main{
     background-color: antiquewhite;
     min-height: 300px;
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* stili footer */
+#footer-top{
+    background-color: #3a546d;
+}
+
+#footer-bottom{
+    background-color: #2c3e50;
 }
