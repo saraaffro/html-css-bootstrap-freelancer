@@ -1,28 +1,31 @@
 /* TABLET VERSION */
 @media all and (min-width: 768px){
     .ms_container{
-        width: 80%;
-        padding: 0;
+        width: 85%;
     }
 
-    #ms_portfolio{
+    .ms_container-large{
         width: 90%;
         padding: 0;
+        padding-bottom: 50px;
     }
 
-    #footer-top .row{
-        width: 95%;
-        padding: 0px;
+    .ms_container.footer{
+        width: 90%;
     }
 }
 
 /* DESKTOP VERSION */
 @media all and (min-width: 992px){
     .ms_container{
-        width: 60%;
+        width: 70%;
     }
 
-    #ms_portfolio{
-        width: 70%;
+    .ms_container-large{
+        width: 80%;
+    }
+
+    .ms_container.footer{
+        width: 85%;
     }
 }
