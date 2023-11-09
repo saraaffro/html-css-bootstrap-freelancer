@@ -122,6 +122,7 @@ h1{
 .ms_card{
     margin: 0 auto;
     border-radius: 10px;
+    position: relative;
 }
 
 .house{
@@ -157,6 +158,24 @@ h1{
 
 .portfolio, .contact{
     color: #2c3e50;
+}
+
+.fa-plus{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+}
+
+.ms_card:hover .fa-plus{
+    display: block;
+}
+
+.ms_card:hover .img-container{
+    opacity: 0.3;
 }
 
 /* about */
